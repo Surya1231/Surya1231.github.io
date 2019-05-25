@@ -299,7 +299,7 @@ section{
 }
 
 #s4 .outerbox{
-  padding: 25px;
+  padding: 20px;
 }
 
 #s4 .outerbox .item{
@@ -364,6 +364,10 @@ section{
 #s4 .item .text2{
   padding-top: 15px;
   text-align: center;
+}
+
+#s4 .hide{
+  display: none;
 }
 
 

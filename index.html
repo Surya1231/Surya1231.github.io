@@ -287,7 +287,7 @@
 
         </div>
 
-        <div class="gallery_f_inner row imageGallery1">
+        <div class="row">
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 outerbox">
             <div class="item">
@@ -387,7 +387,9 @@
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="row hide" id="moreprojects">
           <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 outerbox">
             <div class="item">
               <div class="image">
@@ -437,6 +439,10 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-outline-primary" onclick="showmorep('moreprojects')" id="showmore"> Show More </button>
         </div>
 
       </div>
@@ -629,6 +635,20 @@
       document.getElementById(id).classList.toggle('hide');
       document.getElementById('i'+id).classList.toggle('fa-chevron-up');
       document.getElementById('i'+id).classList.toggle('fa-chevron-down');
+    }
+
+    var close = true;
+    function showmorep(id){
+      document.getElementById(id).classList.toggle('hide');
+      if(close){
+        document.getElementById('showmore').innerText = "Show Less";
+          close = false;
+      }
+
+      else{
+        document.getElementById('showmore').innerText = "Show More";
+        close = true;
+      }
     }
     </script>
 
