@@ -8,6 +8,10 @@ nav {
         box-shadow: 0 8px 6px -6px #555;
 }
 
+.navbar{
+  padding: 0.1rem 1rem;
+}
+
 .nav-link{
   color:#007bff !important;
   margin-left: 20px;
