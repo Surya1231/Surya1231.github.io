@@ -297,6 +297,59 @@ section{
 
 }
 
+#s3 .outer{
+  padding: 20px;
+}
+
+
+#s3 .outer .ach{
+  background: white;
+  color: black;
+  padding: 10px 30px 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+
+#s3 .ach .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#s3 .hide{
+  display: none;
+}
+
+#s3 .hidden{
+  padding-top: 15px;
+  color:blue;
+  font-size: 17px;
+}
+
+#s3 .btn{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#s3 .hide{
+  display: none;
+}
+
+@media (max-width:326px){
+  #s3 .fas{
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+.clear{
+  clear: both;
+}
+
 #s4{
   padding-top: 100px;
   padding-bottom: 100px;
