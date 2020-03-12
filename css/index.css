@@ -35,7 +35,7 @@ nav {
 }
 
 .light1{
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .light{
